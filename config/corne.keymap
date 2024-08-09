@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1      &kp F2        &kp F3           &kp F4             &kp F5           &kp F6                &kp F7              &kp F8            &kp F9         &kp F10           &kp F11      &kp F12
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4          &kp LEFT            &kp DOWN          &kp UP         &kp RIGHT         &kp HOME     &kp END
-&kp LSHFT   &kp K_MUTE    &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp PRINTSCREEN  &kp LC(LA(DELETE))    &kp K_CONTEXT_MENU  &kp K_PLAY_PAUSE  &kp LESS_THAN  &kp GREATER_THAN  &kp PAGE_UP  &kp PAGE_DOWN
-                                           &kp LGUI           &trans           &kp SPACE             &kp RET             &trans            &kp RALT
+&kp F1      &kp F2        &kp F3           &kp F4             &kp F5           &kp F6          &kp F7              &kp F8            &kp F9            &kp F10            &kp F11      &kp F12
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &kp LEFT            &kp DOWN          &kp UP            &kp RIGHT          &kp HOME     &kp END
+&kp LSHFT   &kp K_MUTE    &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp PRINTSCREEN  &kp CAPS        &kp K_CONTEXT_MENU  &kp K_PLAY_PAUSE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP  &kp PAGE_DOWN
+                                           &kp LGUI           &trans           &kp SPACE       &kp RET             &trans            &kp RALT
             >;
         };
 
@@ -50,9 +50,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR      &kp DEL
-&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp COLON     &kp DOUBLE_QUOTES
-&kp LSHFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp QUESTION  &kp TILDE
+&kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp DEL
+&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON     &kp DOUBLE_QUOTES
+&kp LSHFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UNDER  &kp PLUS   &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp TILDE
                                        &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
             >;
         };
