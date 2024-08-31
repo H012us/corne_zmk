@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LC(LA(DELETE))  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp DEL
-&kp CAPS            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PAGE_UP   &kp PAGE_DOWN
-&kp LSHFT           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UNDER  &kp PLUS   &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp TILDE
-                                                &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
+&kp LC(LA(DELETE))  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET                          &kp AMPS                                &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
+&kp CAPS            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp PLUS                           &kp MINUS                               &kp ASTERISK          &kp SLASH             &kp PAGE_UP            &kp PAGE_DOWN
+&kp LSHFT           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp INSERT             &kp DELETE
+                                                &kp LGUI      &trans        &kp SPACE       &kp RET                            &trans                                  &kp RALT
             >;
         };
 
